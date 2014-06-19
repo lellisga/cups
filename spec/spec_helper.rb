@@ -1,0 +1,2 @@
+require 'cups'
+require 'faraday'

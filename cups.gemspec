@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.add_development_dependency 'faraday'
+  spec.add_development_dependency 'rspec'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

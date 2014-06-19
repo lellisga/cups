@@ -6,10 +6,23 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    diff-lcs (1.2.5)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     multipart-post (2.0.0)
     rake (10.3.2)
+    rspec (3.0.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+    rspec-core (3.0.0)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.0)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.0)
 
 PLATFORMS
   ruby
@@ -19,3 +32,4 @@ DEPENDENCIES
   cups!
   faraday
   rake
+  rspec
